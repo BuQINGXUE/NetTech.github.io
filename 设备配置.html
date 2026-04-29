@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>设备配置 - NetTech网络技术普及分享站</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "微软雅黑", sans-serif;
+        }
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        nav {
+            background: #233759;
+            padding: 15px 0;
+        }
+        .nav-container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            color: #fff;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        .nav-links a:hover {
+            color: #69b1ff;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+        }
+        .page-title {
+            background: #344975;
+            color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .article-list {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px #ddd;
+        }
+        .article-item {
+            padding: 15px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .article-item:last-child {
+            border-bottom: none;
+        }
+        .article-item a {
+            color: #233759;
+            font-size: 18px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .article-item a:hover {
+            color: #0066cc;
+        }
+        .article-item p {
+            color: #666;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">设备配置</div>
+            <div class="nav-links">
+                <a href="网站首页.html">返回首页</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="page-title">
+            <h1>设备配置</h1>
+            <p>交换机、路由器、VLAN、静态路由、ACL 等配置案例</p>
+        </div>
+
+        <div class="article-list">
+            <div class="article-item">
+                <a href="#">1. 交换机基础配置</a>
+                <p>设备登录、基础信息配置、端口模式配置</p>
+            </div>
+            <div class="article-item">
+                <a href="#">2. VLAN 划分与 Trunk 配置</a>
+                <p>Access/Trunk/hybrid 模式，VLAN间通信</p>
+            </div>
+            <div class="article-item">
+                <a href="#">3. 静态路由配置</a>
+                <p>直连路由、静态路由、默认路由配置</p>
+            </div>
+            <div class="article-item">
+                <a href="#">4. ACL 访问控制列表</a>
+                <p>标准ACL、扩展ACL配置与应用场景</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        个人计算机网络技术小站 · 仅供学习分享
+    </footer>
+</body>
+</html>

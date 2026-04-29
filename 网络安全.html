@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网络安全 - 网络技术小站</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "微软雅黑", sans-serif;
+        }
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        nav {
+            background: #233759;
+            padding: 15px 0;
+        }
+        .nav-container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            color: #fff;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        .nav-links a:hover {
+            color: #69b1ff;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+        }
+        .page-title {
+            background: #344975;
+            color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .article-list {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px #ddd;
+        }
+        .article-item {
+            padding: 15px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .article-item:last-child {
+            border-bottom: none;
+        }
+        .article-item a {
+            color: #233759;
+            font-size: 18px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .article-item a:hover {
+            color: #0066cc;
+        }
+        .article-item p {
+            color: #666;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">网络安全技术</div>
+            <div class="nav-links">
+                <a href="网站首页.html">返回首页</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="page-title">
+            <h1>网络安全</h1>
+            <p>防火墙、攻防基础、端口安全、VPN 等内容</p>
+        </div>
+
+        <div class="article-list">
+            <div class="article-item">
+                <a href="#">1. 防火墙基础与配置</a>
+                <p>安全策略、NAT、防攻击基础配置</p>
+            </div>
+            <div class="article-item">
+                <a href="#">2. 常见网络攻击与防护</a>
+                <p>DDOS、ARP欺骗、端口扫描的原理与防御</p>
+            </div>
+            <div class="article-item">
+                <a href="#">3. 端口安全与802.1X</a>
+                <p>MAC地址绑定、端口安全配置</p>
+            </div>
+            <div class="article-item">
+                <a href="#">4. VPN 技术与应用</a>
+                <p>IPSec、SSL VPN 基础概念与配置</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        个人计算机网络技术小站 · 仅供学习分享
+    </footer>
+</body>
+</html>

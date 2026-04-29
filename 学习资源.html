@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学习资源 - 网络技术小站</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "微软雅黑", sans-serif;
+        }
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        nav {
+            background: #233759;
+            padding: 15px 0;
+        }
+        .nav-container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            color: #fff;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        .nav-links a:hover {
+            color: #69b1ff;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+        }
+        .page-title {
+            background: #344975;
+            color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .article-list {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px #ddd;
+        }
+        .article-item {
+            padding: 15px 0;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .article-item:last-child {
+            border-bottom: none;
+        }
+        .article-item a {
+            color: #233759;
+            font-size: 18px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .article-item a:hover {
+            color: #0066cc;
+        }
+        .article-item p {
+            color: #666;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        .download-btn {
+            background: #0066cc;
+            color: #fff;
+            padding: 5px 12px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .download-btn:hover {
+            background: #0052a3;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">学习资源</div>
+            <div class="nav-links">
+                <a href="网站首页.html">返回首页</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="page-title">
+            <h1>学习资源</h1>
+            <p>文档、拓扑模板、命令速查表、工具分享</p>
+        </div>
+
+        <div class="article-list">
+            <div class="article-item">
+                <div>
+                    <a href="#">网络命令速查表</a>
+                    <p>常用ping、tracert、telnet等命令说明</p>
+                </div>
+                <a href="#" class="download-btn">查看</a>
+            </div>
+            <div class="article-item">
+                <div>
+                    <a href="#">网络拓扑图模板</a>
+                    <p>企业网、园区网、小型办公网模板</p>
+                </div>
+                <a href="#" class="download-btn">查看</a>
+            </div>
+            <div class="article-item">
+                <div>
+                    <a href="#">设备配置模板</a>
+                    <p>交换机、路由器常用配置模板</p>
+                </div>
+                <a href="#" class="download-btn">查看</a>
+            </div>
+            <div class="article-item">
+                <div>
+                    <a href="#">网络故障排查手册</a>
+                    <p>常见网络问题诊断流程与解决方法</p>
+                </div>
+                <a href="#" class="download-btn">查看</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        个人计算机网络技术分享站 · 仅供学习分享
+    </footer>
+</body>
+</html>
